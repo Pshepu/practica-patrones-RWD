@@ -48,3 +48,21 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .contenedor-flex{
+        display: flex;
+        gap: 2rem;
+    }
+    .contenedor-main{
+        flex-basis: calc(60%);
+    }
+    
+    .contenedor-nosotros{
+    order: -1;
+     flex-basis: calc(20%);
+    }
+    .contenedor-mision{
+     flex-basis: calc(20%);
+    }
+}
