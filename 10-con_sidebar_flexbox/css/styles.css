@@ -53,5 +53,13 @@ p {
 
 .con-aside{
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
+}
+
+aside{
+    flex: 1;
+}
+
+article{
+    flex:3;
 }
